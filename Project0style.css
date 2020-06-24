@@ -1,0 +1,40 @@
+* {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: large;
+}
+
+
+
+body{
+  background-color: lightblue;
+  font-family: sans-serif,ui-serif;
+  width: 50%;
+  height: 50%;
+}
+
+h1 {
+
+  color: #AE0001;
+}
+
+.tables {
+
+  background-color: #B2BEB5;
+}
+#list {
+  background-color: #B2BEB5;
+
+}
+body::after {
+  content: "End of page";
+}
+
+@media (max-width: 600px) {
+  * {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+  }
+
+}
